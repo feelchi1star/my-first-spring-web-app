@@ -13,7 +13,7 @@ public class TodoService {
 
 	private static List<Todo> todos = new ArrayList<>();
 	static {
-		todos.add(new Todo(++todoCount, "Feel", "Welomt to AWS", LocalDate.now().plusYears(1), false));
+		todos.add(new Todo(++todoCount, "spring", "Welomt to AWS", LocalDate.now().plusYears(1), false));
 		todos.add(new Todo(++todoCount, "Musa", "Welomt to UI/UX", LocalDate.now().plusYears(1), false));
 		todos.add(new Todo(++todoCount, "John", "Welomt to AWS", LocalDate.now().plusYears(1), false));
 

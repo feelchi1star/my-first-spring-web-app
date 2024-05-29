@@ -20,7 +20,6 @@ public class WelcomeController {
 
 	private String getLoggedInUsername() {
 		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-
 		return authentication.getName();
 	}
 }
